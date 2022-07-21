@@ -29,7 +29,7 @@ def PasswordGenerator():
     Password = []
     for i in range(round(lettersCount)):
         Password.append(random.choice(Letters))
-        # random.choice instad of shuffling the lists.
+        # random.choice instead of shuffling the lists.
     for i in range(round(digitsCount)):
         Password.append(random.choice(Digits))
     
