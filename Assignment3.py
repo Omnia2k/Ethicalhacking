@@ -16,9 +16,9 @@ def PasswordGenerator():
     
     while flag:
         # askin the user for the options the he want.
-        lettersCount = int(input("Enter the number of letters you want in your password..."))
-        digitsCount = int(input("Enter the number of digits you want in your password..."))
-        charCount = int(input("Enter the number of spicial characters you want in your password..."))
+        lettersCount = int(input("Enter the number of letters you want in your password : "))
+        digitsCount = int(input("Enter the number of digits you want in your password : "))
+        charCount = int(input("Enter the number of spicial characters you want in your password : "))
         totalCount = lettersCount + digitsCount +charCount
         if totalCount < passwordLength or totalCount == passwordLength:
             flag = False
